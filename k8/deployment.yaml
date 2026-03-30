@@ -14,7 +14,7 @@ spec:
         app: portfolio
     spec:
       containers:
-        - image: rithi0/portfolio-app
+        - image: rithi0/portfolio-app:latest
           name: portfolio
           ports:
             - containerPort: 80
